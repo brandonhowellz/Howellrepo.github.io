@@ -1,0 +1,71 @@
+/* Custom CSS */
+body {
+    padding-top: 70px; /* Adjusted for the fixed navbar */
+    background-color: #f8f9fa; /* Light gray background */
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.hero-section {
+    background: url('hero-bg.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+}
+
+.biography-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.background-image{
+    position: absolute;
+
+}
+
+element.style{
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: transparent;
+    background-position: -208.847px 0px;
+    background-image: "BrandonPortfolio-Pic.jpg";
+    background-attachment: fixed;
+    min-height: 0px;
+    padding-top: 450px;
+    padding-bottom: 450px;
+}
+
+.container .display-4 {
+    position: relative;
+    width: 1056px;
+    margin: 0 auto;
+    padding: 0 0 0 200px;
+    color: black;
+}
+
+.container .column,.container .columns {
+    float: right;
+    display: inline;
+    margin-left: 200px;
+    margin-right: 14px;
+    justify-content: right;
+}
+
+li.slide.s-first-visible-section .s-section:not(.no-resize).s-cta-section,li.slide.s-first-visible-section .s-section:not(.no-resize).s-new-title-section,li.slide.s-first-visible-section .s-section:not(.no-resize).s-title-section {
+    padding-top: 200px;
+    padding-bottom: 200px
+}
+.s-email-form,.s-section.s-block-section,.s-section.s-block-section .s-block-profile,.s-section.s-blog-section,.s-section.s-columns-section,.s-section.s-columns-section .s-item-media-group,.s-section.s-cta-section,.s-section.s-donation-section .s-donation,.s-section.s-footer-section,.s-section.s-footer-section .container.s-layout-vertical,.s-section.s-icons-section,.s-section.s-info-section,.s-section.s-media-section .s-item-media-group,.s-section.s-new-title-section,.s-section.s-process-section .s-repeatable-item,.s-section.s-process-section .s-repeatable>div,.s-section.s-process-section .s-repeatable>div>div,.s-section.s-process-section .ui-sortable,.s-section.s-repeatable,.s-section.s-slider-section,.s-section.s-store-section .s-ecommerce-card-view-wrapper .s-ecommerce-card-view-cards,.s-signup-form {
+    text-align: center
+}
+/* Add other styles as needed */
