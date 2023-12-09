@@ -1,8 +1,11 @@
 /* Custom CSS */
 body {
-    padding-top: 70px; /* Adjusted for the fixed navbar */
-    background-color: #f8f9fa; /* Light gray background */
+    padding-top: 70px;
+    /* Adjusted for the fixed navbar */
+    background-color: #f8f9fa;
+    /* Light gray background */
 }
+
 h1 {
     display: block;
     font-size: 2em;
@@ -12,12 +15,29 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
+
+svg {
+    border: none;
+}
+
+
+.container .column {
+    position: absolute;
+    float: center;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+
 .hero-section {
     background: url('hero-bg.jpg') center/cover;
-    color: #fff;
+    color: #444444;
     text-align: center;
-    padding: 100px 0;
+
 }
+
+
 
 .hero-section h1 {
     font-size: 3em;
@@ -25,17 +45,25 @@ h1 {
 
 .biography-section {
     background-color: #fff;
-    padding: 50px 0;
+    padding: 11px 0;
 }
 
-.background-image{
+.background-image {
     position: absolute;
 
 }
 
-element.style{
+.biography-paragraph{
+    position: relative;
+    padding: 20px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+element.style {
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 40%;
     background-color: transparent;
     background-position: -208.847px 0px;
     background-image: "BrandonPortfolio-Pic.jpg";
@@ -45,27 +73,67 @@ element.style{
     padding-bottom: 450px;
 }
 
-.container .display-4 {
+.display-1 {
     position: relative;
-    width: 1056px;
-    margin: 0 auto;
-    padding: 0 0 0 200px;
+    left: 50%;
+    right: auto;
+    width: 50%;
+    margin: 0 200px 0 -200px;
+    padding: 0 0 0 0px;
     color: black;
 }
 
-.container .column,.container .columns {
-    float: right;
-    display: inline;
-    margin-left: 200px;
-    margin-right: 14px;
-    justify-content: right;
+.display-4 {
+    position: relative;
+    width: 0;
+    margin: 0 0;
+    padding: 0 0 0 0px;
+    color: black;
 }
 
-li.slide.s-first-visible-section .s-section:not(.no-resize).s-cta-section,li.slide.s-first-visible-section .s-section:not(.no-resize).s-new-title-section,li.slide.s-first-visible-section .s-section:not(.no-resize).s-title-section {
-    padding-top: 200px;
-    padding-bottom: 200px
+
+
+.lead {
+    position: relative;
+
+    left: 10%;
+    right: auto;
+    color: black;
+    margin: 0 0;
+    padding: 0 0 0 0;
 }
-.s-email-form,.s-section.s-block-section,.s-section.s-block-section .s-block-profile,.s-section.s-blog-section,.s-section.s-columns-section,.s-section.s-columns-section .s-item-media-group,.s-section.s-cta-section,.s-section.s-donation-section .s-donation,.s-section.s-footer-section,.s-section.s-footer-section .container.s-layout-vertical,.s-section.s-icons-section,.s-section.s-info-section,.s-section.s-media-section .s-item-media-group,.s-section.s-new-title-section,.s-section.s-process-section .s-repeatable-item,.s-section.s-process-section .s-repeatable>div,.s-section.s-process-section .s-repeatable>div>div,.s-section.s-process-section .ui-sortable,.s-section.s-repeatable,.s-section.s-slider-section,.s-section.s-store-section .s-ecommerce-card-view-wrapper .s-ecommerce-card-view-cards,.s-signup-form {
-    text-align: center
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
 }
-/* Add other styles as needed */
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.biography-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.center-column{
+    object-fit: scale-down;
+    width: 80%;
+    height: 80%;
+    margin: 0 10rem 0 10rem;
+}
