@@ -1,6 +1,10 @@
 /* Custom CSS */
 body {
     padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
     /* Adjusted for the fixed navbar */
     background-color: #f8f9fa;
     /* Light gray background */
@@ -45,7 +49,7 @@ svg {
 
 .biography-section {
     background-color: #fff;
-    padding: 11px 0;
+    padding: 5rem 0;
 }
 
 .background-image {
@@ -53,7 +57,7 @@ svg {
 
 }
 
-.biography-paragraph{
+.biography-paragraph {
     position: relative;
     padding: 20px 0 0 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -131,9 +135,19 @@ img {
     display: block;
 }
 
-.center-column{
+.center-column {
     object-fit: scale-down;
     width: 80%;
     height: 80%;
     margin: 0 10rem 0 10rem;
+}
+
+.contact-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    font-weight: 200;
+    background-color: #fff;
+    /* White background */
+    padding: 10rem 10rem 10rem 25rem;
+    margin: 50px 0 0 0;
 }
