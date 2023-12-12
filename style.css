@@ -35,7 +35,7 @@ svg {
 }
 
 .hero-section {
-    background: url('hero-bg.jpg') center/cover;
+    
     color: #444444;
     text-align: center;
 
@@ -148,6 +148,15 @@ img {
     font-weight: 200;
     background-color: #fff;
     /* White background */
-    padding: 10rem 10rem 10rem 25rem;
-    margin: 50px 0 0 0;
+    padding: 10rem 5rem 10rem 5rem;
+    margin: 50px 0rem 0 0;
+}
+
+.video-section{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: 5rem 10rem 0 10rem;
+    padding: 0 10rem 0 10 rem;
+    justify-content: center;
 }
