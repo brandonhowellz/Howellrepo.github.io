@@ -100,7 +100,7 @@ element.style {
 .lead {
     position: relative;
 
-    left: 10%;
+    left: auto;
     right: auto;
     color: black;
     margin: 0 0;
