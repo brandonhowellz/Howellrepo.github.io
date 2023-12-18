@@ -79,11 +79,10 @@ element.style {
 
 .display-1 {
     position: relative;
-    left: 50%;
     right: auto;
     width: 50%;
-    margin: 0 200px 0 -320px;
-    padding: 0 0 0 0px;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
     color: black;
 }
 
